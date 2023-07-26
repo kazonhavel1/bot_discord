@@ -12,5 +12,4 @@ class MyClient(discord.Client):
         print('Message from {0.author}: {0.content}'.format(message))
 
 client = MyClient(intents=intents)  # Passa o objeto de intenções ao criar a instância do cliente
-client.run('MTEzMzU0MDA3Njk2MjQ0NzM4MA.GW-gFc.-NBC62XzNNwdnfDioFC5vAGm-AE0Iya5UcfM-Q') 
-# TOKEN de acesso do BOT
+client.run('') # TOKEN de acesso do BOT aqui
