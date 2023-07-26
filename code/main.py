@@ -9,7 +9,7 @@ class MyClient(discord.Client):
         print('Logado como {0}!'.format(self.user))
 
     async def on_message(self, message):
-        print('Message from {0.author}: {0.content}'.format(message))
+        print('Mensagem do autor {0.author}: {0.content}'.format(message))
 
 client = MyClient(intents=intents)  # Passa o objeto de intenções ao criar a instância do cliente
 client.run('') # TOKEN de acesso do BOT aqui
